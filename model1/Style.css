@@ -1,0 +1,342 @@
+@charset "utf-8";
+/* CSS Document */
+
+.model1-background-flower {
+   background-image: url("../jhon&laura/flower_yellow.png");
+   background-position: center top, left top;
+   background-size: 80%;
+   background-repeat: no-repeat, repeat;
+}
+
+/* .container {
+   margin-top: 50px;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
+   justify-content: center;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   align-items: center;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+   -ms-flex-direction: column;
+   flex-direction: column;
+} */
+
+.container .couple {
+   margin-top: -100px;
+}
+
+.map {
+   margin-top: 150px;
+   margin-bottom: 50px;
+}
+
+.map h1 {
+   color: rgba(207, 164, 14, 0.7);
+   font-family: 'Crimson Pro', serif;
+   font-size: 40px;
+   font-weight: 400;
+}
+
+.map {
+   margin-top: 50px;
+}
+
+.map .btn {
+   margin-top: 5px;
+}
+
+.container h3.judul {
+   text-align: center;
+   font-size: 5em;
+   line-height: 0.7em;
+   color: rgba(207, 164, 14, 1.00);
+   font-weight: 900;
+   font-family: 'Allura', cursive;
+}
+
+
+h3 span {
+   display: block;
+   font-weight: 600;
+   letter-spacing: 4px;
+   font-size: 0.3em;
+   font-family: 'Roboto Slab', serif;
+   color: rgba(0, 0, 0, 0.7);
+}
+
+hr {
+   box-sizing: content-box;
+   height: 0;
+   border: 0;
+   border-top: 1px solid rgba(1, 1, 1, 0.1);
+   display: block;
+
+}
+
+h2.pawiwahan {
+   font-family: 'Crimson Pro', serif;
+   font-size: 30px;
+   text-align: center;
+   text-transform: uppercase;
+   font-weight: 400;
+   color: rgba(207, 164, 14, 1.00);
+}
+
+h3.pengantin {
+   line-height: 1;
+   text-align: center;
+   font-size: 5em;
+   margin-top: 5px;
+   font-weight: 700;
+   color: rgba(207, 164, 14, 1.00);
+   font-family: 'Allura', cursive;
+}
+
+.container p.parents {
+   text-align: center;
+   font-size: 15px;
+   font-family: 'Roboto Slab', serif;
+}
+
+h4.salam {
+   font-family: 'Crimson Pro', serif;
+   font-size: 35px;
+   margin-top: 15px;
+   margin-bottom: 25px;
+   font-weight: 400;
+   color: rgba(207, 164, 14, 0.8);
+}
+
+.container p {
+   font-weight: normal;
+   font-family: 'Roboto Slab', serif;
+}
+
+.container .saveDate p {
+   font-weight: bold;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   font-size: 30px;
+   color: rgba(207, 164, 14, 0.8);
+}
+
+.container h3.wedding {
+   text-align: center;
+   font-size: 2.5em;
+   line-height: 0.7em;
+   color: black;
+   font-weight: 500;
+   margin-top: -10px;
+   font-family: 'Allura', cursive;
+   ;
+}
+
+.countdown {
+   margin-top: 30px;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   border: 1.5px solid rgba(207, 164, 14, 0.7);
+   border-radius: 5px;
+}
+
+.countdown div {
+   position: relative;
+   width: auto;
+   height: 100px;
+   line-height: 100px;
+   text-align: center;
+   color: rgb(41, 40, 40);
+   margin: 0 15px;
+   font-size: 2em;
+   font-weight: 500;
+   font-family: 'Roboto Slab', serif;
+}
+
+.countdown div:before {
+   content: '';
+   position: absolute;
+   bottom: -30px;
+   left: 0;
+   width: 100%;
+   height: 35px;
+   color: #333;
+   font-size: 0.45em;
+   line-height: 10px;
+   font-weight: 300;
+}
+
+.countdown #day:before {
+   content: 'Hari';
+   font-weight: 600;
+}
+
+.countdown #hour:before {
+   content: 'Jam';
+   font-weight: 600;
+}
+
+.countdown #minute:before {
+   content: 'Menit';
+   font-weight: 600;
+}
+
+.countdown #second:before {
+   content: 'Detik';
+   font-weight: 600;
+}
+
+.videoWrapper h1 {
+   text-align: center;
+   font-size: 40px;
+   margin-top: 80px;
+   line-height: 0.7em;
+   color: rgba(207, 164, 14, 0.7);
+   font-weight: 400;
+   font-family: 'Crimson Pro', serif;
+}
+
+.flower {
+   /* margin-top: -70px; */
+   width: 9%;
+   border: 0;
+   vertical-align: middle;
+}
+
+.overlay {
+   width: 0;
+   height: 0;
+   overflow: hidden;
+   position: fixed;
+   top: 0;
+   left: 0;
+   background: rgba(0, 0, 0, 0);
+   z-index: 9999;
+   -webkit-transition: 1s;
+   transition: 1s;
+   text-align: center;
+   padding: 100px 0;
+}
+
+.overlay:target {
+   width: auto;
+   height: auto;
+   bottom: 0;
+   right: 0;
+   background: rgba(0, 0, 0, 0.7);
+
+}
+
+.overlay img {
+   max-height: 100%;
+   box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.8);
+   border: solid white;
+
+}
+
+.overlay:target img {
+   -webkit-animation: zoomAndFade 1s;
+   animation: zoomAndFade 1s;
+}
+
+.overlay .close {
+   position: absolute;
+   top: 60px;
+   left: 90%;
+   margin-left: -20px;
+   color: white;
+
+}
+
+.next,
+.prev {
+   width: 60px;
+   height: 600px;
+   position: absolute;
+   text-indent: -9999px;
+   margin-left: -50px;
+}
+
+.prev {
+   margin-left: -10px;
+}
+
+
+@-webkit-keyframes zoomAndFade {
+   0% {
+      -webkit-transform: scale(0);
+      transform: scale(0);
+      opacity: 0;
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+   }
+
+   100% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+      opacity: 1;
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+   }
+}
+
+
+@keyframes zoomAndFade {
+   0% {
+      -webkit-transform: scale(0);
+      transform: scale(0);
+      opacity: 0;
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+   }
+
+   100% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+      opacity: 1;
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+   }
+}
+
+@media (max-width: 575px) {
+   .overlay img {
+      width: 90%;
+   }
+
+   h3.pengantin {
+      font-size: 2.5em;
+   }
+
+   h4.salam {
+      font-size: 25px;
+   }
+
+   .container .saveDate p {
+      font-size: 17px;
+      margin-top: 20px;
+   }
+
+   .model1-background-flower {
+      background-image: url("../jhon&laura/flower_yellow.png");
+      background-position: center top, left top;
+      background-size: 800px auto, auto;
+      background-repeat: no-repeat, repeat;
+   }
+
+   .container h3.judul {
+      font-size: 3em;
+   }
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+   .container .saveDate p {
+      font-size: 25px;
+   }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+   .container .saveDate p {
+      font-size: 25px;
+   }
+}
